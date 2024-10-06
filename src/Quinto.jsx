@@ -15,12 +15,20 @@ export default function Quinto (){
                     </div>
                     <h3>Respostas</h3>
                     <div className="card resposta">
-                        Primeiramente, eu ligo um dos interruptores, espero alguns minutos, e depois desligo. <br/> 
-                        Em seguida, ligo outro interruptor e vou até uma das salas com lâmpada.
-                        Se a lâmpada estiver ligada, pertence ao interruptor 2, se estiver apagada e quente, pertence ao interruptor 1, e se estiver apagada e fria, pertence ao interruptor 3. <br/>
-                        Por fim, entre os dois interruptores restantes, deixo um ligado e o outro desligado e verifico outra sala.
-                        Dessa forma, consigo descobrir qual interruptor liga cada uma das outras duas lâmpadas. <br/>
-
+                        <ul>
+                            <li>
+                            Primeiro, eu ligo um dos interruptores, espero alguns minutos, e depois desligo.
+                            </li>
+                            <br/>
+                            <li>
+                            Em seguida, ligo outro interruptor e vou até uma das salas com lâmpada.
+                            Se a lâmpada estiver ligada, pertence ao interruptor 2, se estiver apagada e quente, pertence ao interruptor 1, e se estiver apagada e fria, pertence ao interruptor 3.
+                            </li>
+                            <br/>
+                            <li>
+                            Por fim, entre os dois interruptores restantes, deixo um ligado e o outro desligado e verifico outra sala.
+                            Dessa forma, consigo descobrir qual interruptor liga cada uma das outras duas lâmpadas.                             </li>
+                        </ul>
                     </div>
                 </div>
                 

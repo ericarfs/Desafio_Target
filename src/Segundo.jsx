@@ -3,7 +3,7 @@ import Layout from "./components/Layout";
 
 export default function Segundo (){
     const [string, setString] = useState("");
-    const [saida, setSaida] = useState("Informe uma string");
+    const [saida, setSaida] = useState("Informe uma string!");
 
     const verificarString = () => {
         if (string == '')
@@ -12,7 +12,9 @@ export default function Segundo (){
             setSaida("A string não contém a letra A!")
         else {
             const count = [...string.toUpperCase()].filter(l => l === 'A').length;
-            setSaida(`A letra A aparece ${count} vez(es) na string!`)
+            count > 1 
+            ? setSaida(`A letra A aparece ${count} vezes na string!`)
+            : setSaida(`A letra A aparece ${count} vez na string!`)
         }
             
     }
@@ -33,7 +35,7 @@ export default function Segundo (){
                             type="text"
                             min={0}
                             onChange={(e) => setString(e.target.value)}
-                            onClick={() => setSaida("Informe uma string")}
+                            onClick={() => setSaida("Informe uma string!")}
                             placeholder="String"
                             required
                         />
