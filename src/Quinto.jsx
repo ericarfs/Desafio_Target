@@ -15,10 +15,12 @@ export default function Quinto (){
                     </div>
                     <h3>Respostas</h3>
                     <div className="card resposta">
-                        Primeiro,  <br/> 
-                        &emsp;&emsp;1, 3, 5, 7, 9 <br/>
-                        b) Sequência das potências de 2:<br/> 
-                        &emsp;&emsp;2, 4, 8, 16, 32, 64, 128 <br/>
+                        Primeiramente, eu ligo um dos interruptores, espero alguns minutos, e depois desligo. <br/> 
+                        Em seguida, ligo outro interruptor e vou até uma das salas com lâmpada.
+                        Se a lâmpada estiver ligada, pertence ao interruptor 2, se estiver apagada e quente, pertence ao interruptor 1, e se estiver apagada e fria, pertence ao interruptor 3. <br/>
+                        Por fim, entre os dois interruptores restantes, deixo um ligado e o outro desligado e verifico outra sala.
+                        Dessa forma, consigo descobrir qual interruptor liga cada uma das outras duas lâmpadas. <br/>
+
                     </div>
                 </div>
                 

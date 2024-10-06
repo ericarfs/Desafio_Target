@@ -1,7 +1,23 @@
+import { useEffect, useState } from "react";
 import Layout from "./components/Layout";
 
 export default function Terceiro (){
+    const [soma, setSoma] = useState(0);
 
+    const imprimir = () => {
+        let indice = 12;
+        let soma = 0;
+        let k = 1;
+        while (k < indice){
+            k = k + 1;
+            soma = soma + k;
+        }
+
+        setSoma(soma);
+    }
+
+    useEffect(() => {imprimir();},[]);
+    
     return (
         <Layout>
             <section>
@@ -17,6 +33,7 @@ export default function Terceiro (){
                         imprimir(SOMA);
                         <p>Ao final do processamento, qual será o valor da variável SOMA?</p> 
                     </div>
+                    <h3> Resultado: {soma} </h3>
                 </div>
                 
             </section>
